@@ -40,18 +40,18 @@ def main(image):
     if nim_index is not None:
         nim = lines[nim_index]
 
-    # Extract other information based on the index of NIM
-    if nim_index + 1 < len(lines):
-        nama = lines[nim_index + 1]
+        # Extract other information based on the index of NIM
+        if nim_index + 1 < len(lines):
+            nama = lines[nim_index + 1]
 
-    if nim_index + 2 < len(lines):
-        ttl = lines[nim_index + 2]
+        if nim_index + 2 < len(lines):
+            ttl = lines[nim_index + 2]
 
-    if nim_index + 3 < len(lines):
-        jurusan = lines[nim_index + 3]
+        if nim_index + 3 < len(lines):
+            jurusan = lines[nim_index + 3]
 
-    if nim_index + 4 < len(lines):
-        alamat = ' '.join(lines[nim_index + 4:])
+        if nim_index + 4 < len(lines):
+            alamat = ' '.join(lines[nim_index + 4:])
 
     # print('nim: ' + nim)
     # print('nama: ' + nama)
