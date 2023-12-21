@@ -1,8 +1,8 @@
 venv
-image.jpg
+image2.jpg
+image1.jpg
+template.jpg
+output.jpg
 template.jpg
 .idea
-yolov3.cfg
-yolov3.weights
-firebase_config.json
 models/

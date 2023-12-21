@@ -19,7 +19,7 @@ def ocr_raw(image):
     return result_raw
 
 
-def main(image):
+def main():
     result_raw = ocr_raw(cv2.imread('image.jpg'))
     nim = ''
     nama = ''
